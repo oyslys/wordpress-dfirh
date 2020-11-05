@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Twenty Nineteen Child
+ Theme URI:
+ Description:  Twenty Nineteen Child Theme for testing purposes
+ Author:       GR.uno
+ Author URI:
+ Template:     twentynineteen
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         dill
+ Text Domain:  twentynineteen-child
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p{
+  color: red;
+  font-family: 'Roboto', sans-serif;
+}
+.entry .entry-content .wp-block-button .wp-block-button__link:not(.has-background){
+  background-color: yellow;
+  border-radius: 10px;
+}
+.entry .entry-content .wp-block-button .wp-block-button__link:not(.has-background):hover{
+  background-color: blue;
+}
+.entry .entry-title:before{
+  display: none !important;
+}
+.entry .entry-title{
+  display: none !important;
+}
+header.entry-header{
+  display: none !important;
+}
